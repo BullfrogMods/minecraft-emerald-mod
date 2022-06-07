@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="emerald_armor__tools"
 version="1.0.0"
 displayName="Emerald Armor + Tools"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="jeremiah, MCreator"
+displayURL="https://github.com/BullfrogMods/minecraft-emerald-mod"
+authors="Bullfrog, MCreator"
+description='''
+Adds emerald armor and tools to minecraft
+'''
 
 [[dependencies.emerald_armor__tools]]
     modId="minecraft"
