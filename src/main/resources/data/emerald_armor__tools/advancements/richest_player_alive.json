@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "emerald_armor__tools:emerald_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.richest_player_alive.title"
+    },
+    "description": {
+      "translate": "advancements.richest_player_alive.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "richest_player_alive": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/upgrade_tools"
+}
