@@ -10,6 +10,9 @@
     "textureLeggings": "emerald_leggings",
     "enableBoots": true,
     "textureBoots": "emerald_boots",
+    "onBootsTick": {
+      "name": "RichestPlayerProcedure"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
