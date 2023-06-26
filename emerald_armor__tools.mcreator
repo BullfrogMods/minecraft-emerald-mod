@@ -11,7 +11,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_armor_boots.json",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_armor_helmet.json",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_armor_leggings.json",
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldArmorItem.java",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -20,7 +27,12 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_chestplate_recipe"
+      "registry_name": "emerald_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_chestplate.json"
+        ]
+      }
     },
     {
       "name": "EmeraldLeggings",
@@ -28,7 +40,12 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_leggings"
+      "registry_name": "emerald_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_leggings.json"
+        ]
+      }
     },
     {
       "name": "EmeraldBoots",
@@ -36,7 +53,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_boots"
+      "registry_name": "emerald_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_boots.json"
+        ]
+      }
     },
     {
       "name": "EmeraldHelmet",
@@ -44,7 +66,12 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_helmet"
+      "registry_name": "emerald_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_helmet.json"
+        ]
+      }
     },
     {
       "name": "EmeraldPickaxe",
@@ -52,7 +79,13 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_pickaxe"
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldPickaxeItem.java",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "EmeraldSword",
@@ -60,7 +93,13 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_sword"
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldSwordItem.java",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_sword.json"
+        ]
+      }
     },
     {
       "name": "EmeraldShovel",
@@ -68,7 +107,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_shovel"
+      "registry_name": "emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_shovel.json",
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldShovelItem.java"
+        ]
+      }
     },
     {
       "name": "EmeraldAxe",
@@ -76,7 +121,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_axe"
+      "registry_name": "emerald_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_axe.json",
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldAxeItem.java"
+        ]
+      }
     },
     {
       "name": "EmeraldHoe",
@@ -84,7 +135,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_hoe"
+      "registry_name": "emerald_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/emeraldarmortools/item/EmeraldHoeItem.java",
+          "src/main/resources/assets/emerald_armor__tools/models/item/emerald_hoe.json"
+        ]
+      }
     },
     {
       "name": "RichestPlayerAlive",
@@ -92,7 +149,12 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "richest_player_alive"
+      "registry_name": "richest_player_alive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/advancements/richest_player_alive.json"
+        ]
+      }
     },
     {
       "name": "RichestPlayerProcedure",
@@ -102,6 +164,9 @@
       "locked_code": false,
       "registry_name": "richest_player_procedure",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/emeraldarmortools/procedures/RichestPlayerProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -116,7 +181,12 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_pickaxe_recipe"
+      "registry_name": "emerald_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_pickaxe_.json"
+        ]
+      }
     },
     {
       "name": "EmeraldShovelRecipe",
@@ -124,7 +194,12 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_shovel_recipe"
+      "registry_name": "emerald_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_shovel.json"
+        ]
+      }
     },
     {
       "name": "EmeraldAxeRecipe",
@@ -132,7 +207,12 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_axe_recipe"
+      "registry_name": "emerald_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "EmeraldAxeRecipe2",
@@ -140,7 +220,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_axe_recipe_2"
+      "registry_name": "emerald_axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_axe_recipe_2.json"
+        ]
+      }
     },
     {
       "name": "EmeraldHoeRecipe",
@@ -148,7 +233,12 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_hoe_recipe"
+      "registry_name": "emerald_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "EmeraldHoesRecipe2",
@@ -156,7 +246,12 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_hoes_recipe_2"
+      "registry_name": "emerald_hoes_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_hoes_recipe_2.json"
+        ]
+      }
     },
     {
       "name": "EmeraldSwordRecipe",
@@ -164,7 +259,12 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_sword_recipe"
+      "registry_name": "emerald_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emerald_armor__tools/recipes/emerald_sword_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -191,7 +291,7 @@
   "workspaceSettings": {
     "modid": "emerald_armor__tools",
     "modName": "Emerald Armor + Tools",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Adds emerald armor and tools to minecraft",
     "author": "Bullfrog, MCreator",
     "websiteURL": "https://github.com/BullfrogMods/minecraft-emerald-mod",
@@ -202,10 +302,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.emeraldarmortools",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202300224119
 }
