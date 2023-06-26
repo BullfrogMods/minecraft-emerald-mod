@@ -7,7 +7,6 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class EmeraldHoeItem extends HoeItem {
 	public EmeraldHoeItem() {
@@ -35,6 +34,6 @@ public class EmeraldHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
-		}, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, 0f, new Item.Properties());
 	}
 }

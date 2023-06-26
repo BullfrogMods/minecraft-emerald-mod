@@ -7,7 +7,6 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class EmeraldSwordItem extends SwordItem {
 	public EmeraldSwordItem() {
@@ -35,6 +34,6 @@ public class EmeraldSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4f, new Item.Properties());
 	}
 }
